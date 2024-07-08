@@ -1,0 +1,229 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #4a90e2;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #e1f5fe;
+    flex-wrap: wrap;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.intro h1 span {
+    font-size: 1.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-links a:hover img {
+    transform: scale(1.2);
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: #4a90e2;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #357abd;
+}
+
+.image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#skills, #open-source, #projects, #achievements, #blogs, #talks, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills-container, .open-source-container, .projects-container, .achievements-container, .blogs-container, .talks-container, .contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skills-container h2, .open-source-container h2, .projects-container h2, .achievements-container h2, .blogs-container h2, .talks-container h2, .contact-container h2 {
+    font-size: 2em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.skills-container p, .open-source-container p, .projects-container p, .achievements-container p, .blogs-container p, .talks-container p, .contact-container p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.skills-list, .projects-list, .achievements-list, .blogs-list, .talks-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill, .project, .achievement, .blog, .talk {
+    background: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    width: calc(33.333% - 20px);
+}
+
+.skill:hover, .project:hover, .achievement:hover, .blog:hover, .talk:hover {
+    transform: scale(1.02);
+}
+
+.skill img, .project img {
+    width: 100%;
+    height: auto;
+}
+
+.skill p, .project p, .achievement p, .blog p, .talk p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.project h3, .achievement h3, .blog h3, .talk h3 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.blog .date, .talk .date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    color: #fff;
+    background: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #357ab8;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+footer {
+    background: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+nav h4 {
+    justify-content: left;
+    font-family: cursive;
+    text-decoration:none;
+    font-style: italic;
+    color: darkmagenta;
+    font-weight: 600;
+    transition: color 0.3s;
+}
